@@ -25,3 +25,31 @@ p{
   margin-top: 0.5rem;
   color: rgb(158, 158, 158);
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #444;
+}

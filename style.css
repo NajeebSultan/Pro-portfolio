@@ -64,8 +64,8 @@ p{
 
 /* Mouse Icon */
 .mouse-icon {
-  width: 30px;
-  height: 50px;
+  width: 25px;
+  height: 45px;
   border: 2px solid white;
   border-radius: 25px;
   position: absolute;
@@ -73,6 +73,8 @@ p{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  margin-left: 250px;
+  border-width: 3px;
   
 }
 

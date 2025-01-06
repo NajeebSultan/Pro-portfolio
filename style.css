@@ -96,15 +96,20 @@ p{
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  animation: rotate-circle 6s linear infinite;
 }
 
-.scroll-circle span {
+.circle-text {
   position: absolute;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   white-space: nowrap;
-  transform-origin: center;
+ width: 200px;
+ height: 200px;
+ text-align: center;
+ line-height: 200px;
+ animation: rotate-text 6s linear infinite;
   color: white;
 }
 
@@ -118,4 +123,12 @@ p{
     transform: translateY(10px);
     opacity: 0;
   }
+}
+@keyframes rotate-text {
+  0%{transform:rotate(0deg);
+
+}
+100% {
+transform:rotate(-360deg)
+}
 }

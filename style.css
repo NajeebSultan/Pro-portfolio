@@ -38,6 +38,7 @@ p{
 
 .social-icons a {
   text-decoration: none;
+  border-color:white;
   font-size: 24px;
   color: #fff;
   background-color: #000;
@@ -52,4 +53,7 @@ p{
 
 .social-icons a:hover {
   background-color: #444;
+  border-color: #aaa;
+  outline: none;
 }
+

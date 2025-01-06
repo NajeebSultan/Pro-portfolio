@@ -57,3 +57,63 @@ p{
   outline: none;
 }
 
+.scroll-down-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Mouse Icon */
+.mouse-icon {
+  width: 30px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  
+}
+
+.mouse-wheel {
+  width: 6px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 8px auto;
+  animation: scroll-wheel 1.5s infinite;
+}
+
+/* Rotating Circular Text */
+.scroll-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.scroll-circle span {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform-origin: center;
+  color: white;
+}
+
+/* Animations */
+@keyframes scroll-wheel {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}

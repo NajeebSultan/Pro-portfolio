@@ -1,4 +1,4 @@
-body{
+.first{
   height: 100vh;
   display: flex;
   justify-content: flex-start;
@@ -10,7 +10,7 @@ body{
 .container{
   
   margin-left: 18rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
 
 }
 h1{

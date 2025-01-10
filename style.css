@@ -143,16 +143,14 @@ transform:rotate(-360deg)
 .second{
   background-color:rgb(17, 20, 20);
   display: flex;
-  justify-content: center;
-  align-items: center;
 
 }
 .img{
   max-width: 300px;
-  max-height: 400px;
-  width: 100%;
-  height: auto;
+  max-height: 350px;
   border-radius: 8px;
+  margin-left: 310px;
+  margin-top: 290px;
 
 
 }

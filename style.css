@@ -143,22 +143,23 @@ transform:rotate(-360deg)
 .second{
   background-color:rgb(17, 20, 20);
   display: flex;
+  padding-top:270px;
+  padding-bottom: 200px;
 
 }
 .img{
   max-width: 350px;
   max-height: 350px;
-  border-radius: 8px;
   margin-left: 310px;
-  margin-top: 290px;
+ 
 
 
 }
 .description{
   margin-left: 310px;
-  margin-top: 300px;
   margin-left: 150px;
   line-height: 40px;
+ 
 
 
 
@@ -173,11 +174,29 @@ transform:rotate(-360deg)
 
 .self{
   color:rgb(255, 255, 255);
-  font-weight: bold;
   font-family: "syne",serif;
+  font-size: 22px;
 }
 .working{
   color:rgb(255, 255, 255);
   font-family:"syne",serif;
+  font-size: 22px;
 
+}
+.resume-button {
+ 
+height: 40px;
+background-color: #FFFFFF;
+font-weight: 600;
+color: #000000;
+line-height: 19.2px;
+padding: 0px 20px 0px 20px;
+margin: 50px 0px 0px 0px;
+border-radius: 20px;
+font-size: 15px;
+}
+
+.resume-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
 }

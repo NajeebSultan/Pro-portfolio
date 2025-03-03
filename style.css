@@ -176,11 +176,13 @@ transform:rotate(-360deg)
   color:rgb(255, 255, 255);
   font-family: "syne",serif;
   font-size: 22px;
+
 }
 .working{
   color:rgb(255, 255, 255);
   font-family:"syne",serif;
   font-size: 22px;
+  
 
 }
 .resume-button {
@@ -199,4 +201,31 @@ font-size: 15px;
 .resume-button:hover {
   background-color: #e0e0e0;
   transform: scale(1.05);
+}
+
+.work-section{
+
+background-color:rgb(17, 20, 20);
+padding-left: 18.75rem;
+
+
+}
+.work{
+  width: 264.15px;
+height: 120px;
+font-size: 80px;
+font-weight: 900;
+color: #FFFFFF;
+line-height: 120px;
+font-family:sans-serif;
+}
+
+.line{
+  border: none;
+  border-top: 2px solid #fff;
+  height: 2px;
+  color: #fff;
+  width: 700px;
+  padding-left: 18.75rem;
+
 }

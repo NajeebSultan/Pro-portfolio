@@ -1,0 +1,6 @@
+# Preview of portfolio
+
+<video width="320" height="240" controls>
+  <source src="public/portfolio.mp4" type="video/mp4">
+</video>
+
